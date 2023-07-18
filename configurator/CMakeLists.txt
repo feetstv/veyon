@@ -1,6 +1,7 @@
 include(BuildVeyonApplication)
 include(WindowsBuildHelpers)
 
+set(VEYON_BUILD_APPLE_BUNDLE 1)
 build_veyon_application(veyon-configurator
 	src/AccessControlPage.cpp
 	src/AccessControlPage.h
