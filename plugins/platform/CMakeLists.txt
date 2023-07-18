@@ -3,5 +3,10 @@ if(VEYON_BUILD_WINDOWS)
 endif()
 
 if(VEYON_BUILD_LINUX)
-	add_subdirectory(linux)
+    add_subdirectory(linux)
 endif()
+
+if(VEYON_BUILD_APPLE)
+    add_subdirectory(macos)
+endif(VEYON_BUILD_APPLE)
+
